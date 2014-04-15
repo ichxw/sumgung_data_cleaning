@@ -10,6 +10,7 @@ Code Book for the run_analysis.R
 ## Uses descriptive activity names to name the activities in the data set
 * name the first two columns as subject and activity_label
 * select the corresponding 66 feature names and set them as the column names of associated measurements 
+
 ## Appropriately labels the data set with descriptive activity names
 * read the activity_labels file
 * use the lapply functin the replace activity symbols (i.e., number 1 to 6) to activity labels with descriptive activity
