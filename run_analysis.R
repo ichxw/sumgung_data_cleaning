@@ -34,4 +34,4 @@ label <- label[, 2]
 action <- as.vector(tidy[,2])
 action_label <- as.vector(unlist(lapply(action, function(x) sub(x, label[x], x))))
 tidy[, 2] <- action_label
-write.table(tidy, 'tidy.txt', row.names = FALSE, sep = "\t", quote = F)
+write.table(tidy, 'tidyData.txt', row.names = FALSE, sep = "\t", quote = F)
